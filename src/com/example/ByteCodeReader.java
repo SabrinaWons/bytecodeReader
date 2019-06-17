@@ -23,12 +23,7 @@ public class ByteCodeReader {
 		FileInputStream inputStream = new FileInputStream(fileName);
 		byteCode = inputStream.readAllBytes();
 
-
-
-
 		String content = "";
-
-
 		content += getMagicNumber();
 		content += getVersion();
 		content += getConstantPool();
@@ -43,7 +38,6 @@ public class ByteCodeReader {
 		System.out.println(content);
 		Path pathOutput = Paths.get("byteCodeOfTheClass.txt");
 		Files.write( pathOutput, content.getBytes(), StandardOpenOption.CREATE);
-
 	}
 
 	public String getAttributes(){
