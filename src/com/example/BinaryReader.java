@@ -21,6 +21,9 @@ public class BinaryReader {
 		for(int i = 0; i<bytes.length; i++){
 			String s = getByteBinary(bytes[i]);
 			content += s + " ";
+			if(i % 8 == 7){
+				content += "\n";
+			}
 		}
 
 		System.out.println(content);

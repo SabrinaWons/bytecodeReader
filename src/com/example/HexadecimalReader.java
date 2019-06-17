@@ -21,6 +21,9 @@ public class HexadecimalReader {
 		for(int i = 0; i<bytes.length; i++){
 			String s = getByteHex(bytes[i]);
 			content += s + " ";
+			if(i % 16 == 15){
+				content += "\n";
+			}
 		}
 
 		System.out.println(content);
