@@ -1,0 +1,71 @@
+Magic number : CA FE BA BE 
+Version : 0 0 0 55 
+Constant pool : 0 17 
+#1 Method type : 0A 00 04 00 0D 
+#2 String : 08 00 0E 
+#3 Class : 07 00 0F 
+#4 Class : 07 00 10 
+#5 String : 01 00 06 3C 69 6E 69 74 3E (<init>)
+#6 String : 01 00 03 28 29 56 (()V)
+#7 String : 01 00 04 43 6F 64 65 (Code)
+#8 String : 01 00 0F 4C 69 6E 65 4E 75 6D 62 65 72 54 61 62 6C 65 (LineNumberTable)
+#9 String : 01 00 0A 67 65 74 4D 65 73 73 61 67 65 (getMessage)
+#10 String : 01 00 14 28 29 4C 6A 61 76 61 2F 6C 61 6E 67 2F 53 74 72 69 6E 67 3B (()Ljava/lang/String;)
+#11 String : 01 00 0A 53 6F 75 72 63 65 46 69 6C 65 (SourceFile)
+#12 String : 01 00 0E 4D 79 53 65 72 76 69 63 65 2E 6A 61 76 61 (MyService.java)
+#13 Name type : 0C 00 05 00 06 
+#14 String : 01 00 05 48 65 6C 6C 6F (Hello)
+#15 String : 01 00 15 63 6F 6D 2F 65 78 61 6D 70 6C 65 2F 4D 79 53 65 72 76 69 63 65 (com/example/MyService)
+#16 String : 01 00 10 6A 61 76 61 2F 6C 61 6E 67 2F 4F 62 6A 65 63 74 (java/lang/Object)
+Access flags : 00 21 
+This class : 00 03 
+Super class : 00 04 
+Number of interfaces : 00 00 
+Number of fields : 00 00 
+Number of methods : 00 02 
+  Access Flags : 00 01 
+  Name index : 00 05  (<init>)
+  Type index : 00 06  (()V)
+  Attributes count : 00 01 
+  Attribute name index : 00 07  (Code)
+  Attribute length : 00 00 00 1D 
+  Max stack : 00 01 
+  Max locals : 00 01 
+  Code length : 00 00 00 05 
+  Code : 2A B7 00 01 B1 
+         2A
+         B7
+         00
+         01
+         B1
+  exception_table_length : 00 00 
+  attributes_count : 00 01 
+    attribute_name_index : 00 08  (LineNumberTable)
+    attribute_length : 00 00 00 06 
+    line_number_table_length : 00 01 
+    start_pc : 00 00 
+    line_number : 00 03 
+  Access Flags : 00 01 
+  Name index : 00 09  (getMessage)
+  Type index : 00 0A  (()Ljava/lang/String;)
+  Attributes count : 00 01 
+  Attribute name index : 00 07  (Code)
+  Attribute length : 00 00 00 1B 
+  Max stack : 00 01 
+  Max locals : 00 01 
+  Code length : 00 00 00 03 
+  Code : 12 02 B0 
+         12 -> ldc
+         02 -> 
+         B0 -> areturn
+  exception_table_length : 00 00 
+  attributes_count : 00 01 
+    attribute_name_index : 00 08  (LineNumberTable)
+    attribute_length : 00 00 00 06 
+    line_number_table_length : 00 01 
+    start_pc : 00 00 
+    line_number : 00 06 
+Attribute count : 00 01 
+attribute_name_index : 00 0B  (SourceFile)
+attribute_length : 00 00 00 02 
+sourcefile_index : 00 0C  (MyService.java)
